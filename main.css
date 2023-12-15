@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: 100vh;
+    background-color: indigo;
+}
+
+.nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 24px;
+}
