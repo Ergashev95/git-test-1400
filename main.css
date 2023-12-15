@@ -41,3 +41,24 @@ header {
     color: white;
     font-size: 24px;
 }
+
+.header-content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.header-title {
+    color: yellowgreen;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.header-text {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+}
